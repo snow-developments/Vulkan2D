@@ -9,7 +9,7 @@
 #include "VK2D/DescriptorControl.h"
 #include "VK2D/Util.h"
 #include "VK2D/Opaque.h"
-#include <malloc.h>
+#include <stdlib.h>
 
 void _vk2dRendererAddShader(VK2DShader shader);
 void _vk2dRendererRemoveShader(VK2DShader shader);

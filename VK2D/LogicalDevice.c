@@ -7,7 +7,7 @@
 #include "VK2D/Opaque.h"
 #include "VK2D/Util.h"
 #include "VK2D/Renderer.h"
-#include <malloc.h>
+#include <stdlib.h>
 
 VK2DLogicalDevice gDeviceFromMainThread;
 

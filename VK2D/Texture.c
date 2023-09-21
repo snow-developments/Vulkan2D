@@ -12,7 +12,7 @@
 #include "VK2D/stb_image.h"
 #include "VK2D/Opaque.h"
 #include "VK2D/Util.h"
-#include <malloc.h>
+#include <stdlib.h>
 
 static void _vk2dTextureCreateDescriptor(VK2DTexture tex, VK2DRenderer renderer, bool mainThread) {
 	if (tex->img->set == NULL) {

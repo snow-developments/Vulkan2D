@@ -5,7 +5,7 @@
 #include "VK2D/PhysicalDevice.h"
 #include "VK2D/Validation.h"
 #include "VK2D/Initializers.h"
-#include <malloc.h>
+#include <stdlib.h>
 #include <memory.h>
 #include "VK2D/Renderer.h"
 #include "VK2D/Opaque.h"
